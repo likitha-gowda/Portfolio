@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script><!--font awesome 5 cdn ,the first link then copy the script tag-->
+
+    <!--Bootstrap 4 css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<!--light box css-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
+    <!--custom css-->
+    <link rel="stylesheet" type="text/css" href="css/style.css"><!--since my file is my css-->
+    <title>Likitha - front end developer</title>
+</head>
+<body>
+  <div class="container">
+      <!--start of header-->
+      <header id="main-header">
+          <div class="row no-gutters"><!--no-gutter is used to remove the margin in between-->
+              <div class="col-lg-4 col-md-5">
+                  <img src="/l2.jpg" alt="profile">
+              </div>
+              <div class="col-lg-8 col-md-7">
+                  <div class="d-flex flex-column"><!--whenever i want to get perfect effect in col-8 of 3 layers,3 layers will be displayed in column direction,whenever i use flex-column or row i must use d-flex-->
+                    <!--first layer-->
+                      <div class="p-5 bg-dark text-white"><!--this is for entire 3 layers-->
+                          <div class="d-flex flex-row align-items-center justify-content-between"><!--to display all my heading and icons in row(i want all my items in one row),align-items-cnter is used for getting all the contents in one line,justify-content-between is used apply equal spaces between all the 5 items-->
+                              <h1>LIKITHA GOWDA</h1>
+                              <!--start of icons-->
+                              <div>
+                                  <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                              </div>
+                              <div>
+                                <a href="#" class="text-white"><i class="fab fa-facebook"></i></a>
+                              </div>
+                              <div>
+                                <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                              </div>
+                              <div>
+                                <a href="#" class="text-white"><i class="fab fa-github"></i></a>
+                              </div>
+                            <!--end of icons-->
+                          </div>
+
+                      </div>
+                      <!--2nd layer-->
+                      <div class="p-5 bg-black">
+                          <h5>Experienced front end web developer</h5>
+                      </div>
+                      <!--3rd layer-->
+                      <div class="d-flex flex-row text-white text-center align-items-stretch">
+                          <div class="p-5 menu-item text-center bg-primary" data-toggle="collapse" data-target="#home">
+                              <i class="fas fa-home fa-2x "></i>
+                              <span class="d-none d-lg-block">Home</span>
+                          </div>
+                          <div class="p-5 menu-item text-center bg-success "data-toggle="collapse" data-target="#resume">
+                            <i class="fas fa-graduation-cap fa-2x "></i>
+                            <span class="d-none d-lg-block" > Resume</span>
+                          </div>
+                          <div class="p-5 menu-item text-center bg-warning" data-toggle="collapse" data-target="#work">
+                            <i class="fas fa-folder-open fa-2x "></i>
+                            <span class="d-none d-lg-block">Work</span>
+                          </div>
+                          <div class="p-5 menu-item text-center bg-danger " data-toggle="collapse" data-target="#contact">
+                            <i class="fas fa-envelope fa-2x "></i>
+                            <span class="d-none d-lg-block">Contact</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </header>
+      <!---end of header-->
+
+      <!--start of home section-->
+      <div id="home" class="collapse-show">
+         <div class="card card-body bg-primary text-white py-5">
+             <h2>Welcome to my PortFolio</h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ad officiis id placeat quibusdam sint explicabo at quae quisquam sed natus, facere voluptate libero eius cupiditate rem odit praesentium hic atque, doloribus perspiciatis eveniet culpa.</p>
+         </div>
+         <div class="card card-body py-5">
+             <h3>My Skills</h3>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi voluptates ex esse corporis impedit aut vitae sint cupiditate, reprehenderit, qui, similique debitis rem explicabo aliquam.</p>
+             <hr>
+             <h4>HTML5</h4>
+             <div class="progress my-3">
+                 <div class="progress-bar bg-info " style="width: 90%;">
+
+                 </div>
+             </div>
+             <h4>CSS3</h4>
+             <div class="progress my-3">
+                 <div class="progress-bar bg-info " style="width: 70%;">
+
+                 </div>
+             </div>
+             <h4>HTML5</h4>
+             <div class="progress my-3">
+                <div class="progress-bar bg-info " style="width: 50%;">
+
+                </div>
+            </div>
+            <h4>CSS3</h4>
+            <div class="progress my-3">
+                <div class="progress-bar bg-info " style="width: 30%;">
+
+                </div>
+            </div>
+         </div>
+      </div>
+      <!--end of home section-->
+      <!--start of resume-->
+      <div id="resume" class="collapse"> 
+          <div class="card card-body bg-success text-white py-5">
+          <h2>My Skills and Qualification</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ad officiis id placeat quibusdam sint explicabo at quae quisquam sed natus, facere voluptate libero eius cupiditate rem odit praesentium hic atque, doloribus perspiciatis eveniet culpa.</p>
+         </div>
+         <div class="card card-body my-3">
+           <h3>Education qualifications</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, illum harum tempore corporis maiores porro eos explicabo provident in quos!</p>
+         </div>
+         <div class="row">
+             <div class="col-lg-4 col-sm-12">
+                 <div class="card">
+                     <div class="card-body">
+                         <h4 class="card-title">School name</h4>
+                         <p class="card-text">
+                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis velit harum tenetur atque, quia sunt sequi nam ipsam doloribus architecto.
+                         </p>
+                         <p class="p-2 mb-3 bg-dark text-white">
+                              Lorem, ipsum dolor.
+                         </p>
+                         <p class="p-2 mb-3 bg-dark text-white">
+                            Lorem, ipsum dolor.
+                       </p>
+                       <p class="p-2 mb-3 bg-dark text-white">
+                        Lorem, ipsum dolor.
+                        </p>
+                        <div class="card-footer">
+                            <h6 class="text-muted">Period: 2008-2017</h6>
+                        </div>
+                     </div>
+                 </div>
+ 
+             </div>
+             <div class="col-lg-4 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">School name</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis velit harum tenetur atque, quia sunt sequi nam ipsam doloribus architecto.
+                        </p>
+                        <p class="p-2 mb-3 bg-dark text-white">
+                             Lorem, ipsum dolor.
+                        </p>
+                        <p class="p-2 mb-3 bg-dark text-white">
+                           Lorem, ipsum dolor.
+                      </p>
+                      <p class="p-2 mb-3 bg-dark text-white">
+                       Lorem, ipsum dolor.
+                       </p>
+                       <div class="card-footer">
+                           <h6 class="text-muted">Period: 2008-20017</h6>
+                       </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">School name</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis velit harum tenetur atque, quia sunt sequi nam ipsam doloribus architecto.
+                        </p>
+                        <p class="p-2 mb-3 bg-dark text-white">
+                             Lorem, ipsum dolor.
+                        </p>
+                        <p class="p-2 mb-3 bg-dark text-white">
+                           Lorem, ipsum dolor.
+                      </p>
+                      <p class="p-2 mb-3 bg-dark text-white">
+                       Lorem, ipsum dolor.
+                       </p>
+                       <div class="card-footer">
+                           <h6 class="text-muted">Period: 2008-20017</h6>
+                       </div>
+                    </div>
+                </div>
+
+            </div>
+           
+            
+         </div>
+      </div>
+      <!--!end of resume-->
+      <!--start of work-->
+      <div id="work" class="collapse">
+        <div class="card card-body bg-warning text-dark py-5"><!--i am giving card body here since i don't use any footers-->
+           
+                <h2>My Work</h2>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit officiis adipisci eius
+                  perspiciatis sequi fuga!</p><!--lead is a different text or font lead is a font for paragraphs -->
+        </div>
+
+        <div class="card card-body py-5">
+           <h3>What i have built</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium soluta esse quibusdam eos recusandae quo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nobis facilis aspernatur! Quibusdam odio voluptatem magni quam, in provident perspiciatis!</p>
+           <div class="row no-gutters"><!--i dont want any margins between my images and my images should be in row-->
+            <div class="col-md-3">
+              <!--i am using images as a link-->
+              <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox"><!--lightbox is used to get loading effect for the image like toggling-->
+                <img src="https://unsplash.it/1200/700.jpg?image=252" alt="work" class="img-fluid"><!--img-fluid is used to get images automatically adjusted-->
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox">
+                <img src="https://unsplash.it/600.jpg?image=253" alt="work" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox">
+                <img src="https://unsplash.it/600.jpg?image=254" alt="work" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox">
+                <img src="https://unsplash.it/600.jpg?image=255" alt="work" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="row no-gutters">
+            <div class="col-md-3">
+              <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox">
+                <img src="https://unsplash.it/600.jpg?image=256" alt="work" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="https://unsplash.it/1200/768.jpg?image=257" data-toggle="lightbox">
+                <img src="https://unsplash.it/600.jpg?image=257" alt="work" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="https://unsplash.it/1200/768.jpg?image=258" data-toggle="lightbox">
+                <img src="https://unsplash.it/600.jpg?image=258" alt="work" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="https://unsplash.it/1200/768.jpg?image=259" data-toggle="lightbox">
+                <img src="https://unsplash.it/600.jpg?image=259" alt="work" class="img-fluid">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--end of work-->
+      <!--start of contact-->
+      <div id="contact" class="collapse">
+        <div class="card card-body bg-danger text-white py-5">
+            <h2>Contact</h2>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit officiis adipisci eius
+              perspiciatis sequi fuga!</p>
+          </div>
+          <div class="card card-body py-5">
+            <h3>Get In Touch</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis eius reprehenderit saepe ab facilis
+              repellendus possimus. Sapiente et magni ullam.</p>
+              <!--start of form-->
+            <form>
+              <div class="form-group"><!---->
+                <div class="input-group input-group-lg"><!---->
+                  <div class="input-group-prepend"><!--for red color box prepend is to get inleft-->
+                    <span class="input-group-text bg-danger text-white">
+                      <i class="fas fa-user"></i>
+                    </span>
+                  </div>
+                  <input type="text" class="form-control bg-dark text-white" placeholder="Name">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group input-group-lg">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text bg-danger text-white">
+                      <i class="fas fa-envelope"></i>
+                    </span>
+                  </div>
+                  <input type="email" class="form-control bg-dark text-white" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group input-group-lg">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text bg-danger text-white">
+                      <i class="fas fa-pencil-alt"></i>
+                    </span>
+                  </div>
+                  <textarea class="form-control bg-dark text-white" placeholder="Message"></textarea>
+                </div>
+              </div>
+              <input type="Submit" value="Submit" class="btn btn-danger btn-block btn-lg">
+            </form>
+            <!--end of form-->
+          </div>
+        </div>
+      <!--end of contact-->
+       <!-- Footer -->
+    <footer id="main-footer" class="p-5 bg-dark text-white"><!---->
+        <div class="row">
+          <div class="col-md-6">
+            <a href="#" class="btn btn-outline-light">
+              <i class="fas fa-cloud"></i> Download Resume
+            </a>
+          </div>
+        </div>
+      </footer>
+  </div>
+ 
+ 
+    
+
+
+    <!--Bootstrap 4 script-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!--light box JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js" integrity="sha512-YibiFIKqwi6sZFfPm5HNHQYemJwFbyyYHjrr3UT+VobMt/YBo1kBxgui5RWc4C3B4RJMYCdCAJkbXHt+irKfSA==" crossorigin="anonymous"></script>
+
+    <!--custom script-->
+    <script src="js/script.js"></script>
+    <script>
+      //lightbox
+      $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+
+
+      //collapse script
+      $(' .menu-item').click(function(){
+        $('.collapse').collapse('hide');
+      });
+    </script>
+</body>
+</html>
